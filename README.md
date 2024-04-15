@@ -1,4 +1,4 @@
-# Ntshoekhoe
+# Ntshoekhe
 Ntshoekhe
 
 Ntsoekhe is a distributed database management system (DDBMS) designed for the digital health sector. It facilitates secure, efficient storage and management of health-related data across multiple nodes, ensuring data integrity, availability, and confidentiality.
