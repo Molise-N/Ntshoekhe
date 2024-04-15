@@ -8,6 +8,7 @@ Ntsoekhe is a distributed database management system (DDBMS) designed for the di
     Python 3.9 or later
     Django framework
     Docker Desktop 
+    Docker extention on vscode for a smooth development experience with Docker container
     
 **Installation and Setup(all command are linux based)**
       this commands must be run on the vscode terminal
@@ -20,8 +21,7 @@ Assuming we are already in the directory that contains docker-compose.yml we run
 
 **Running the system:**
 
--Start Docker Services(if using docker desktop) using the command "docker-compose up -d"
--docker-compose up -d
+-Start Docker Services(if using docker desktop) using the command "docker-compose up -d
 
 
 **lastly run the django server**
