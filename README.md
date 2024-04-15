@@ -10,8 +10,8 @@ Ntsoekhe is a distributed database management system (DDBMS) designed for the di
     Docker Desktop 
     Docker extension on vscode for a smooth development experience with Docker container
     
-**Installation and Setup(all command are linux based)**
-      this commands must be run on the vscode terminal
+**Installation and Setup(all commands are linux based)**
+      these commands must be run on the vscode terminal
 -Create Virtual Environment using this "python -m venv env" 
 -Install Dependencies using pip install -r requirements.txt
 
