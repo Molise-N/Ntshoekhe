@@ -1,0 +1,27 @@
+services:
+    # Healthcare North Node
+    healthcare-north:
+        build: .
+        command: python manage.py runserver 0.0.0.0:8000
+        environment:
+            DATABASE_NAME: northdb.sqlite3
+        volumes:
+            - ./data/north:/app/db
+
+    # Healthcare South Node
+    healthcare-south:
+        build: .
+        command: python manage.py runserver 0.0.0.0:8000
+        environment:
+            DATABASE_NAME: southdb.sqlite3
+        volumes:
+            - ./data/south:/app/db
+
+    # Healthcare West Node
+    healthcare-west:
+        build: .
+        command: python manage.py runserver 0.0.0.0:8000
+        environment:
+            DATABASE_NAME: westdb.sqlite3
+        volumes:
+            - ./data/west:/app/db
