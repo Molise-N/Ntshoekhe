@@ -29,12 +29,6 @@ Assuming we are already in the directory that contains docker-compose.yml we run
 Currently the CRUD opertions on the health data can be done on django admin interfacebut we are working on a custom django views that will handle user for CRUD operations on health data models. 
 
 
-By DDBMS-MATES
-M.Lerotholi 202000705
-M.Teisi 202004682
-M.Ntlhoki 201903845
-R.Seotsanyana 20140591
-K.Mphou 202000281
 
 
 
